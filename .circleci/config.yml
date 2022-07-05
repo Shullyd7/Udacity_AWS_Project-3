@@ -23,9 +23,9 @@ jobs:
             sudo cp -r node-v18.0.0-linux-x64/{bin,include,lib,share} /usr/
             node --version => v18.0.0
             sudo apt install nodejs
-            docker build -t  newthingade/capstone:v1 .
-            docker login -u newthingade -p $DOCKERPASS
-            docker push newthingade/capstone:v1
+            docker build -t  shully77/capstone:v1 .
+            docker login -u shully77 -p $DOCKERPASS
+            docker push shully77/capstone:v1
   workflows:
   the_jobs:
     jobs:
