@@ -3,8 +3,15 @@ To help review your infrastructure, please include the following screenshots in 
 
 ## Deployment Pipeline
 * DockerHub showing containers that you have pushed
+
+    Dockerhub.png
+
+
 * GitHub repository’s settings showing your Travis webhook (can be found in Settings - Webhook)
 * Travis CI showing a successful build and deploy job
+
+    CircleCI Build Job.png
+
 
 ## Kubernetes
 * To verify Kubernetes pods are deployed properly
