@@ -19,21 +19,23 @@ To help review your infrastructure, please include the following screenshots in 
 * To verify Kubernetes pods are deployed properly
 ```bash
 kubectl get pods
+```
+![get-pods](https://user-images.githubusercontent.com/65193001/178095737-4472ac82-7c53-444b-9a5d-e99ceb6daf3b.png)
 
-![get-pods](https://user-images.githubusercontent.com/65193001/178095010-c545b585-c046-4e28-8e35-5de96c75be12.png)
 
 
 ```
 * To verify Kubernetes services are properly set up
 ```bash
 kubectl describe services
-![services-1](https://user-images.githubusercontent.com/65193001/178095191-a7b1137c-1423-4148-a7d9-e657fe73885e.png)
+```
+![services-1](https://user-images.githubusercontent.com/65193001/178095745-56592f25-b2ed-4af1-97aa-a97cb10ae044.png)
 
-![services-2](https://user-images.githubusercontent.com/65193001/178095210-4959d5ec-bbd4-424e-9184-c40ef17b8eb9.png)
+![services-2](https://user-images.githubusercontent.com/65193001/178095752-8bbc7a95-239b-442e-920a-9b2094669d3c.png)
 
-![services-3](https://user-images.githubusercontent.com/65193001/178095223-be75f6df-2cb2-40c4-87d0-6f45bdd50f49.png)
+![services-3](https://user-images.githubusercontent.com/65193001/178095767-0b2ad3f9-d3c4-47aa-a434-8a17d313ba0e.png)
 
-![services-4](https://user-images.githubusercontent.com/65193001/178095234-200497ff-5388-4f76-9267-7d11d54591b2.png)
+![services-4](https://user-images.githubusercontent.com/65193001/178095776-fb3d50ed-e92c-43f3-a0c4-8c910dc07fce.png)
 
 
 
@@ -57,6 +59,5 @@ kubectl logs {pod_name}
 ```bash
 Application: user is logged in and has uploaded pictures
 ```
-
 ![application](https://user-images.githubusercontent.com/65193001/178095700-a1373c65-0c92-45f8-b135-9e0c77adeba8.png)
 
